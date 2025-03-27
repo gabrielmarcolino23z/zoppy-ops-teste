@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "gabrielmarcolino"
+version = "0.1.0"
+description = "Repositório de features de IA Generativa"
+authors = ["Seu Nome <seu.email@empresa.com>"]
+license = "Proprietary"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+langchain-community = "^0.3.20"
+tavily-python = "^0.5.0"
+fastapi = "^0.115.8"
+langchain-openai = "^0.3.3"
+langchain = "^0.3.19"
+faiss-cpu = "^1.10.0"
+openai = "^1.63.2"
+tiktoken = "^0.9.0"
+chromadb = "^0.6.3"
+langchain-chroma = "^0.2.2"
+python-docx = "^1.1.2"
+markdown = "^3.7"
+beautifulsoup4 = "^4.13.3"
+pillow = "^11.1.0"
+backoff = "^2.2.1"
+langgraph = "^0.3.19"
+pyjwt = "^2.10.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.4"
+pytest-asyncio = "^0.25.3"
+uvicorn = "^0.34.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
