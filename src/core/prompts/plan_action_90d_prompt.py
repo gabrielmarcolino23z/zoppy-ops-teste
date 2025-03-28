@@ -64,7 +64,7 @@ Você é um especialista em estratégia de implementação da Zoppy, uma platafo
  
 | Ação | Timeline | Impacto Esperado |
 |------|----------|-----------------|
-| [Ação] | [Período] | [Alto/Médio/Baixo] |
+| [Ação] | [Período] | [Impacto Esperado] |
 
 ---
 
